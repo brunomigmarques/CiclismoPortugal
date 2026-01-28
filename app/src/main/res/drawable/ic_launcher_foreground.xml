@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Bicycle icon - smaller and more realistic -->
+    <group
+        android:translateX="54"
+        android:translateY="56">
+
+        <!-- LEFT WHEEL (Rear) -->
+        <!-- Outer tire -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.5"
+            android:pathData="M -16,4 A 7,7 0 1,1 -16,4.01 Z" />
+
+        <!-- Inner rim -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.2"
+            android:pathData="M -16,4 A 4,4 0 1,1 -16,4.01 Z" />
+
+        <!-- Hub -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M -16,4 A 1.2,1.2 0 1,1 -16,4.01 Z" />
+
+        <!-- Spokes (4 main spokes) -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="0.7"
+            android:pathData="M -16,4 L -16,-3 M -16,4 L -16,11 M -16,4 L -23,4 M -16,4 L -9,4" />
+
+        <!-- RIGHT WHEEL (Front) -->
+        <!-- Outer tire -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.5"
+            android:pathData="M 16,4 A 7,7 0 1,1 16,4.01 Z" />
+
+        <!-- Inner rim -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.2"
+            android:pathData="M 16,4 A 4,4 0 1,1 16,4.01 Z" />
+
+        <!-- Hub -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 16,4 A 1.2,1.2 0 1,1 16,4.01 Z" />
+
+        <!-- Spokes (4 main spokes) -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="0.7"
+            android:pathData="M 16,4 L 16,-3 M 16,4 L 16,11 M 16,4 L 9,4 M 16,4 L 23,4" />
+
+        <!-- FRAME -->
+        <!-- Seat tube (vertical from crank to seat) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:pathData="M -4,-1 L -6,-10" />
+
+        <!-- Top tube (horizontal from seat to handlebars) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:pathData="M -6,-10 L 4,-10" />
+
+        <!-- Down tube (from handlebars to crank) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:pathData="M 4,-10 L -4,-1" />
+
+        <!-- Chain stay (from crank to rear wheel) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M -4,-1 L -16,4" />
+
+        <!-- Seat stay (from seat to rear wheel) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M -6,-10 L -16,4" />
+
+        <!-- Fork (from handlebars to front wheel) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:pathData="M 4,-10 L 16,4" />
+
+        <!-- SEAT -->
+        <!-- Seat post -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:pathData="M -6,-10 L -6,-13" />
+
+        <!-- Saddle -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M -9,-13 L -3,-13 L -4,-14.5 L -8,-14.5 Z" />
+
+        <!-- HANDLEBAR -->
+        <!-- Stem (vertical to handlebars) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M 4,-10 L 6,-14" />
+
+        <!-- Bar (horizontal) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:pathData="M 4,-14 L 9,-14" />
+
+        <!-- Grips -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 4,-14 A 1,1 0 1,1 4,-13.99 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M 9,-14 A 1,1 0 1,1 9,-13.99 Z" />
+
+        <!-- PEDALS & CRANK -->
+        <!-- Bottom bracket (center) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M -4,-1 A 1.5,1.5 0 1,1 -4,-0.99 Z" />
+
+        <!-- Left crank arm -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.8"
+            android:strokeLineCap="round"
+            android:pathData="M -4,-1 L -6,5" />
+
+        <!-- Pedal -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M -8,5 L -4,5 L -4.5,4 L -7.5,4 Z" />
+
+        <!-- Chainring -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1.5"
+            android:pathData="M -4,-1 A 2.5,2.5 0 1,1 -4,-0.99 Z" />
+
+        <!-- CHAIN (simplified) -->
+        <path
+            android:strokeColor="#FFCD00"
+            android:strokeWidth="1.2"
+            android:strokeLineCap="round"
+            android:pathData="M -1.5,-1 L 16,2" />
+
+        <!-- Rear cassette -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="1"
+            android:pathData="M 16,4 A 1.5,1.5 0 1,1 16,4.01 Z" />
+
+    </group>
+</vector>

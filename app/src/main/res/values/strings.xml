@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ciclismo Portugal</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Provas de Ciclismo</string>
+    <string name="search_hint">Pesquisar provas...</string>
+    <string name="filter_button">Filtros</string>
+    <string name="refresh">Atualizar</string>
+
+    <!-- Prova Card -->
+    <string name="prova_date">Data: %s</string>
+    <string name="prova_location">Local: %s</string>
+    <string name="prova_type">Tipo: %s</string>
+    <string name="prova_distances">Distâncias: %s</string>
+    <string name="prova_price">Preço: %s</string>
+    <string name="prova_registration_deadline">Prazo: %s</string>
+
+    <!-- Details Screen -->
+    <string name="details_title">Detalhes da Prova</string>
+    <string name="open_registration">Abrir Inscrição</string>
+    <string name="add_to_calendar">Adicionar ao Calendário</string>
+    <string name="remove_from_calendar">Remover do Calendário</string>
+    <string name="enable_notifications">Ativar Notificações</string>
+    <string name="disable_notifications">Desativar Notificações</string>
+    <string name="share_prova">Partilhar Prova</string>
+    <string name="organizer">Organizador: %s</string>
+    <string name="description">Descrição</string>
+
+    <!-- Calendar Screen -->
+    <string name="calendar_title">Meu Calendário</string>
+    <string name="no_provas_in_calendar">Nenhuma prova no calendário</string>
+    <string name="export_calendar">Exportar para Google Calendar</string>
+    <string name="watch_ad_to_export">Ver anúncio para exportar</string>
+
+    <!-- Filters Screen -->
+    <string name="filters_title">Filtros Avançados</string>
+    <string name="filter_type">Tipo de Prova</string>
+    <string name="filter_region">Região</string>
+    <string name="filter_date_range">Intervalo de Datas</string>
+    <string name="filter_distance">Distância</string>
+    <string name="filter_with_registration">Apenas com inscrição disponível</string>
+    <string name="apply_filters">Aplicar Filtros</string>
+    <string name="clear_filters">Limpar Filtros</string>
+
+    <!-- Prova Types -->
+    <string name="type_estrada">Estrada</string>
+    <string name="type_btt">BTT</string>
+    <string name="type_pista">Pista</string>
+    <string name="type_ciclocross">Ciclocross</string>
+    <string name="type_gran_fondo">Gran Fondo</string>
+
+    <!-- Regions -->
+    <string name="region_all">Todas</string>
+    <string name="region_norte">Norte</string>
+    <string name="region_centro">Centro</string>
+    <string name="region_lisboa">Lisboa e Vale do Tejo</string>
+    <string name="region_alentejo">Alentejo</string>
+    <string name="region_algarve">Algarve</string>
+    <string name="region_acores">Açores</string>
+    <string name="region_madeira">Madeira</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_new_provas">Novas Provas</string>
+    <string name="notification_channel_reminders">Lembretes</string>
+    <string name="notification_new_prova_title">Nova prova disponível!</string>
+    <string name="notification_reminder_title">Lembrete de Prova</string>
+    <string name="notification_deadline_title">Prazo de inscrição próximo</string>
+
+    <!-- Ads -->
+    <string name="ad_remove_ads">Remover Anúncios</string>
+    <string name="watch_ad_for_premium">Ver anúncio para desbloquear</string>
+    <string name="premium_version">Versão Premium</string>
+
+    <!-- States -->
+    <string name="loading">A carregar...</string>
+    <string name="error_loading">Erro ao carregar dados</string>
+    <string name="no_results">Nenhuma prova encontrada</string>
+    <string name="sync_success">Sincronização concluída</string>
+    <string name="sync_error">Erro na sincronização</string>
+    <string name="offline_mode">Modo offline</string>
+
+    <!-- Actions -->
+    <string name="retry">Tentar novamente</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Início</string>
+    <string name="nav_calendar">Calendário</string>
+    <string name="nav_filters">Filtros</string>
+    <string name="nav_settings">Definições</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Definições</string>
+    <string name="settings_notifications">Notificações</string>
+    <string name="settings_sync_frequency">Frequência de sincronização</string>
+    <string name="settings_about">Sobre</string>
+    <string name="settings_privacy_policy">Política de Privacidade</string>
+</resources>
