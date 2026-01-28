@@ -91,7 +91,7 @@ Se for residente da União Europeia, tem os seguintes direitos:
 - **Portabilidade**: Receber os seus dados em formato estruturado
 - **Retirar consentimento**: Retirar consentimento a qualquer momento
 
-Para exercer estes direitos, contacte: **ciclismoportugal.app@gmail.com**
+Para exercer estes direitos, contacte: **brunomigmarques@gmail.com**
 
 ## 8. Privacidade de Menores
 
@@ -160,7 +160,7 @@ Ao desinstalar a app **Ciclismo Portugal**:
 
 Se tiver questões sobre esta Política de Privacidade ou práticas de privacidade, contacte-nos:
 
-**Email:** ciclismoportugal.app@gmail.com
+**Email:** brunomigmarques@gmail.com
 **Nome da App:** Ciclismo Portugal
 **Package:** com.ciclismo.portugal
 **Desenvolvedor:** Bruno (Portugal)
