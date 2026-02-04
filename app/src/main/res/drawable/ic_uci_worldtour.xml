@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Background circle (optional, can be removed) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,50m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"/>
+
+    <!-- Rainbow stripes - UCI World Champion colors -->
+    <!-- Blue stripe -->
+    <path
+        android:fillColor="#0072BC"
+        android:pathData="M15,25 L85,25 L85,32 L15,32 Z"/>
+
+    <!-- Red stripe -->
+    <path
+        android:fillColor="#ED1C24"
+        android:pathData="M15,32 L85,32 L85,39 L15,39 Z"/>
+
+    <!-- Black stripe -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M15,39 L85,39 L85,46 L15,46 Z"/>
+
+    <!-- Yellow stripe -->
+    <path
+        android:fillColor="#FFC20E"
+        android:pathData="M15,46 L85,46 L85,53 L15,53 Z"/>
+
+    <!-- Green stripe -->
+    <path
+        android:fillColor="#00A651"
+        android:pathData="M15,53 L85,53 L85,60 L15,60 Z"/>
+
+    <!-- UCI Text -->
+    <!-- U -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M20,65 L20,78 Q20,83 25,83 L30,83 Q35,83 35,78 L35,65 L32,65 L32,78 Q32,80 30,80 L25,80 Q23,80 23,78 L23,65 Z"/>
+
+    <!-- C -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M42,65 L42,83 L57,83 L57,80 L45,80 L45,68 L57,68 L57,65 Z"/>
+
+    <!-- I -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M64,65 L64,83 L67,83 L67,65 Z"/>
+
+    <!-- WORLD TOUR text (smaller) -->
+    <path
+        android:fillColor="#666666"
+        android:pathData="M15,88 L17,88 L17.5,90 L18,88 L20,88 L19,91 L18.5,93 L17.5,93 L17,91 Z"/>
+    <!-- Simplified "WORLD TOUR" as single path approximation -->
+
+</vector>

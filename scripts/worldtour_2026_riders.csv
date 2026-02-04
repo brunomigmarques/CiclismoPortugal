@@ -1,0 +1,57 @@
+first_name,last_name,team,nationality,age,uci_ranking,speciality,price,category
+Tadej,Pogacar,UAE Team Emirates-XRG,Slovenia,26,1,GC,15.0,GC
+Jonas,Vingegaard,Team Visma-Lease a Bike,Denmark,28,2,GC,14.0,GC
+Remco,Evenepoel,Soudal Quick-Step,Belgium,25,3,GC,13.0,GC
+Primoz,Roglic,Red Bull-BORA-hansgrohe,Slovenia,35,4,GC,12.0,GC
+Mathieu,van der Poel,Alpecin-Premier Tech,Netherlands,30,5,Classics,14.0,CLASSICS
+Wout,van Aert,Team Visma-Lease a Bike,Belgium,30,6,Classics,13.0,CLASSICS
+Jasper,Philipsen,Alpecin-Premier Tech,Belgium,27,7,Sprint,11.0,SPRINTER
+Jonathan,Milan,Lidl-Trek,Italy,24,8,Sprint,10.0,SPRINTER
+Biniam,Girmay,Lidl-Trek,Eritrea,25,9,Sprint,10.0,SPRINTER
+Mads,Pedersen,Lidl-Trek,Denmark,29,10,Classics,10.0,CLASSICS
+Tim,Merlier,Soudal Quick-Step,Belgium,32,15,Sprint,9.0,SPRINTER
+Arnaud,De Lie,Lotto-Intermarche,Belgium,22,18,Sprint,8.5,SPRINTER
+Juan,Ayuso,UAE Team Emirates-XRG,Spain,22,12,GC,10.0,GC
+Adam,Yates,UAE Team Emirates-XRG,United Kingdom,32,20,GC,8.0,GC
+Joao,Almeida,UAE Team Emirates-XRG,Portugal,26,11,GC,10.0,GC
+Marc,Hirschi,UAE Team Emirates-XRG,Switzerland,26,14,Climber,9.0,CLIMBER
+Jay,Vine,UAE Team Emirates-XRG,Australia,29,25,Climber,7.5,CLIMBER
+Matteo,Jorgenson,Team Visma-Lease a Bike,USA,25,13,GC,9.5,GC
+Sepp,Kuss,Team Visma-Lease a Bike,USA,30,22,Climber,8.0,CLIMBER
+Christophe,Laporte,Team Visma-Lease a Bike,France,32,16,Rouleur,8.5,ROULEUR
+Dylan,van Baarle,Team Visma-Lease a Bike,Netherlands,33,30,Classics,7.0,CLASSICS
+Tom,Pidcock,INEOS Grenadiers,United Kingdom,26,17,Classics,9.0,CLASSICS
+Carlos,Rodriguez,INEOS Grenadiers,Spain,24,19,GC,8.5,GC
+Egan,Bernal,INEOS Grenadiers,Colombia,28,35,GC,7.0,GC
+Geraint,Thomas,INEOS Grenadiers,United Kingdom,39,40,GC,6.5,GC
+Ben,Healy,EF Education-EasyPost,Ireland,24,21,Climber,8.0,CLIMBER
+Richard,Carapaz,EF Education-EasyPost,Ecuador,31,23,GC,8.0,GC
+Neilson,Powless,EF Education-EasyPost,USA,28,28,Climber,7.5,CLIMBER
+Romain,Gregoire,Groupama-FDJ,France,22,24,Rouleur,7.5,ROULEUR
+Lenny,Martinez,Groupama-FDJ,France,21,26,Climber,7.5,CLIMBER
+David,Gaudu,Groupama-FDJ,France,28,27,Climber,7.5,CLIMBER
+Pello,Bilbao,Groupama-FDJ,Spain,35,32,Climber,7.0,CLIMBER
+Enric,Mas,Movistar Team,Spain,30,29,GC,7.5,GC
+Cian,Uijtdebroeks,Movistar Team,Belgium,22,31,GC,7.0,GC
+Nairo,Quintana,Movistar Team,Colombia,35,50,Climber,6.0,CLIMBER
+Mikel,Landa,Soudal Quick-Step,Spain,35,33,Climber,7.0,CLIMBER
+Julian,Alaphilippe,Soudal Quick-Step,France,33,34,Classics,7.0,CLASSICS
+Kasper,Asgreen,Soudal Quick-Step,Denmark,30,36,Classics,6.5,CLASSICS
+Giulio,Ciccone,Lidl-Trek,Italy,30,37,Climber,6.5,CLIMBER
+Tao,Geoghegan Hart,Lidl-Trek,United Kingdom,30,38,GC,6.5,GC
+Simon,Yates,Jayco AlUla,United Kingdom,32,39,GC,6.5,GC
+Michael,Matthews,Jayco AlUla,Australia,30,41,Sprint,6.0,SPRINTER
+Eddie,Dunbar,Jayco AlUla,Ireland,28,42,Climber,6.0,CLIMBER
+Aleksandr,Vlasov,Red Bull-BORA-hansgrohe,Russia,29,43,GC,6.5,GC
+Jai,Hindley,Red Bull-BORA-hansgrohe,Australia,29,44,GC,6.5,GC
+Max,Poole,Picnic-PostNL,United Kingdom,21,55,Climber,5.5,CLIMBER
+Jonas,Abrahamsen,Uno-X Mobility,Norway,29,45,Rouleur,6.0,ROULEUR
+Tobias,Halland Johannessen,Uno-X Mobility,Norway,24,46,Climber,6.0,CLIMBER
+Magnus,Cort,Uno-X Mobility,Denmark,31,47,Sprint,6.0,SPRINTER
+Antonio,Tiberi,Bahrain Victorious,Italy,23,48,GC,6.0,GC
+Santiago,Buitrago,Bahrain Victorious,Colombia,25,49,Climber,6.0,CLIMBER
+Matej,Mohoric,Bahrain Victorious,Slovenia,30,51,Classics,5.5,CLASSICS
+Dylan,Teuns,Bahrain Victorious,Belgium,33,52,Rouleur,5.5,ROULEUR
+Rui,Costa,EF Education-EasyPost,Portugal,38,60,Rouleur,5.0,ROULEUR
+Nelson,Oliveira,Movistar Team,Portugal,36,70,Rouleur,4.5,ROULEUR
+Ruben,Guerreiro,EF Education-EasyPost,Portugal,31,55,Climber,5.5,CLIMBER

@@ -1,0 +1,226 @@
+first_name,last_name,team,nationality,age,uci_ranking,speciality,price,category
+Tadej,Pogačar,UAE Team Emirates-XRG,SLO,26,1,GC,15.0,GC
+Jonas,Vingegaard,Team Visma-Lease a Bike,DEN,28,2,GC,14.0,GC
+Remco,Evenepoel,Red Bull-BORA-hansgrohe,BEL,25,3,GC,13.0,GC
+Primož,Roglič,Red Bull-BORA-hansgrohe,SLO,35,4,GC,12.0,GC
+Mathieu,van der Poel,Alpecin-Premier Tech,NED,30,5,Classics,14.0,CLASSICS
+Wout,van Aert,Team Visma-Lease a Bike,BEL,30,6,Classics,13.0,CLASSICS
+Jasper,Philipsen,Alpecin-Premier Tech,BEL,27,7,Sprint,11.0,SPRINTER
+Jonathan,Milan,Lidl-Trek,ITA,24,8,Sprint,10.0,SPRINTER
+Biniam,Girmay,Lidl-Trek,ERI,25,9,Sprint,10.0,SPRINTER
+Mads,Pedersen,Lidl-Trek,DEN,29,10,Classics,10.0,CLASSICS
+João,Almeida,UAE Team Emirates-XRG,POR,26,11,GC,10.0,GC
+Juan,Ayuso,UAE Team Emirates-XRG,ESP,22,12,GC,10.0,GC
+Matteo,Jorgenson,Team Visma-Lease a Bike,USA,25,13,GC,9.5,GC
+Marc,Hirschi,UAE Team Emirates-XRG,SUI,26,14,Climber,9.0,CLIMBER
+Tim,Merlier,Soudal Quick-Step,BEL,32,15,Sprint,9.0,SPRINTER
+Christophe,Laporte,Team Visma-Lease a Bike,FRA,32,16,Rouleur,8.5,ROULEUR
+Tom,Pidcock,Pinarello-Q36.5,GBR,26,17,Classics,9.0,CLASSICS
+Arnaud,De Lie,Lotto-Intermarché,BEL,22,18,Sprint,8.5,SPRINTER
+Olav,Kooij,Team Visma-Lease a Bike,NED,23,19,Sprint,8.5,SPRINTER
+Carlos,Rodríguez,INEOS Grenadiers,ESP,24,20,GC,8.5,GC
+Adam,Yates,UAE Team Emirates-XRG,GBR,32,21,GC,8.0,GC
+Ben,Healy,EF Education-EasyPost,IRL,24,22,Climber,8.0,CLIMBER
+Sepp,Kuss,Team Visma-Lease a Bike,USA,30,23,Climber,8.0,CLIMBER
+Richard,Carapaz,EF Education-EasyPost,ECU,31,24,GC,8.0,GC
+Romain,Grégoire,Groupama-FDJ United,FRA,22,25,Rouleur,7.5,ROULEUR
+Jay,Vine,UAE Team Emirates-XRG,AUS,29,26,Climber,7.5,CLIMBER
+Lenny,Martinez,Groupama-FDJ United,FRA,21,27,Climber,7.5,CLIMBER
+David,Gaudu,Groupama-FDJ United,FRA,28,28,Climber,7.5,CLIMBER
+Neilson,Powless,EF Education-EasyPost,USA,28,29,Climber,7.5,CLIMBER
+Enric,Mas,Movistar Team,ESP,30,30,GC,7.5,GC
+Cian,Uijtdebroeks,Red Bull-BORA-hansgrohe,BEL,22,31,GC,7.0,GC
+Pello,Bilbao,Bahrain Victorious,ESP,35,32,Climber,7.0,CLIMBER
+Mikel,Landa,Soudal Quick-Step,ESP,35,33,Climber,7.0,CLIMBER
+Julian,Alaphilippe,Soudal Quick-Step,FRA,33,34,Classics,7.0,CLASSICS
+Egan,Bernal,INEOS Grenadiers,COL,28,35,GC,7.0,GC
+Kasper,Asgreen,Soudal Quick-Step,DEN,30,36,Classics,6.5,CLASSICS
+Giulio,Ciccone,Lidl-Trek,ITA,30,37,Climber,6.5,CLIMBER
+Tao,Geoghegan Hart,Lidl-Trek,GBR,30,38,GC,6.5,GC
+Simon,Yates,Team Jayco-AlUla,GBR,32,39,GC,6.5,GC
+Geraint,Thomas,INEOS Grenadiers,GBR,39,40,GC,6.5,GC
+Michael,Matthews,Team Jayco-AlUla,AUS,30,41,Sprint,6.0,SPRINTER
+Eddie,Dunbar,Pinarello-Q36.5,IRL,28,42,Climber,6.0,CLIMBER
+Aleksandr,Vlasov,Red Bull-BORA-hansgrohe,RUS,29,43,GC,6.5,GC
+Jai,Hindley,Red Bull-BORA-hansgrohe,AUS,29,44,GC,6.5,GC
+Jonas,Abrahamsen,Uno-X Mobility,NOR,29,45,Rouleur,6.0,ROULEUR
+Tobias,Halland Johannessen,Uno-X Mobility,NOR,24,46,Climber,6.0,CLIMBER
+Magnus,Cort,Uno-X Mobility,DEN,31,47,Sprint,6.0,SPRINTER
+Antonio,Tiberi,Bahrain Victorious,ITA,23,48,GC,6.0,GC
+Santiago,Buitrago,Bahrain Victorious,COL,25,49,Climber,6.0,CLIMBER
+Nairo,Quintana,Movistar Team,COL,35,50,Climber,6.0,CLIMBER
+Matej,Mohorič,Bahrain Victorious,SLO,30,51,Classics,5.5,CLASSICS
+Dylan,Teuns,Bahrain Victorious,BEL,33,52,Rouleur,5.5,ROULEUR
+Max,Poole,Team Picnic-PostNL,GBR,21,53,Climber,5.5,CLIMBER
+Nelson,Oliveira,Movistar Team,POR,36,54,Rouleur,4.5,ROULEUR
+Rui,Costa,EF Education-EasyPost,POR,38,55,Rouleur,5.0,ROULEUR
+Rúben,Guerreiro,EF Education-EasyPost,POR,31,56,Climber,5.5,CLIMBER
+Ivo,Oliveira,UAE Team Emirates-XRG,POR,28,57,Rouleur,4.0,ROULEUR
+Rui,Oliveira,UAE Team Emirates-XRG,POR,28,58,Rouleur,4.0,ROULEUR
+Filippo,Ganna,INEOS Grenadiers,ITA,28,59,Rouleur,7.5,ROULEUR
+Dylan,van Baarle,Team Visma-Lease a Bike,NED,33,60,Classics,7.0,CLASSICS
+Isaac,del Toro,UAE Team Emirates-XRG,MEX,20,61,GC,6.5,GC
+Pavel,Sivakov,UAE Team Emirates-XRG,FRA,28,62,GC,6.0,GC
+Felix,Gall,Decathlon-CMA CGM,AUT,27,63,Climber,6.5,CLIMBER
+Ben,O'Connor,Decathlon-CMA CGM,AUS,29,64,GC,7.5,GC
+Clément,Champoussin,Decathlon-CMA CGM,FRA,26,65,Climber,5.0,CLIMBER
+Dorian,Godon,Decathlon-CMA CGM,FRA,29,66,Rouleur,5.5,ROULEUR
+Sam,Bennett,Pinarello-Q36.5,IRL,34,67,Sprint,6.0,SPRINTER
+Fred,Wright,Pinarello-Q36.5,GBR,25,68,Rouleur,5.5,ROULEUR
+Quinten,Hermans,Pinarello-Q36.5,BEL,29,69,Classics,5.5,CLASSICS
+Milan,Vader,Pinarello-Q36.5,NED,28,70,Climber,5.0,CLIMBER
+Brent,Van Moer,Pinarello-Q36.5,BEL,27,71,Rouleur,5.0,ROULEUR
+Harm,Vanhoucke,Pinarello-Q36.5,BEL,27,72,Climber,4.5,CLIMBER
+Victor,Lafay,Unibet Rose Rockets,FRA,29,73,Climber,5.5,CLIMBER
+Dylan,Groenewegen,Unibet Rose Rockets,NED,31,74,Sprint,6.0,SPRINTER
+Wout,Poels,Unibet Rose Rockets,NED,37,75,Climber,5.5,CLIMBER
+Anthony,Turgis,Team TotalEnergies,FRA,31,76,Classics,6.0,CLASSICS
+Mathieu,Burgaudeau,Team TotalEnergies,FRA,27,77,Rouleur,5.5,ROULEUR
+Alexys,Brunel,Team TotalEnergies,FRA,27,78,Climber,5.0,CLIMBER
+Geoffrey,Bouchard,Team TotalEnergies,FRA,32,79,Climber,5.5,CLIMBER
+Oscar,Onley,INEOS Grenadiers,GBR,22,80,Climber,6.0,CLIMBER
+Josh,Tarling,INEOS Grenadiers,GBR,21,81,Rouleur,6.0,ROULEUR
+Thymen,Arensman,INEOS Grenadiers,NED,25,82,GC,6.5,GC
+Luke,Plapp,INEOS Grenadiers,AUS,24,83,Rouleur,6.0,ROULEUR
+Laurence,Pithie,Red Bull-BORA-hansgrohe,NZL,23,84,Classics,6.0,CLASSICS
+Patrick,Konrad,Lidl-Trek,AUT,33,85,Climber,5.5,CLIMBER
+Thibau,Nys,Lidl-Trek,BEL,22,86,Classics,6.0,CLASSICS
+Simone,Velasco,Lidl-Trek,ITA,29,87,Rouleur,5.0,ROULEUR
+Oier,Lazkano,Movistar Team,ESP,25,88,Rouleur,5.5,ROULEUR
+Einer,Rubio,Movistar Team,COL,27,89,Climber,5.5,CLIMBER
+Alex,Aranburu,Movistar Team,ESP,29,90,Classics,6.0,CLASSICS
+Lennard,Kämna,Red Bull-BORA-hansgrohe,GER,28,91,Climber,6.0,CLIMBER
+Florian,Lipowitz,Red Bull-BORA-hansgrohe,GER,24,92,GC,5.5,GC
+Nils,Politt,Red Bull-BORA-hansgrohe,GER,31,93,Classics,6.0,CLASSICS
+Patrick,Gamper,Red Bull-BORA-hansgrohe,AUT,27,94,Climber,5.5,CLIMBER
+Sam,Gaze,Alpecin-Premier Tech,NZL,28,95,Classics,5.5,CLASSICS
+Kaden,Groves,Alpecin-Premier Tech,AUS,26,96,Sprint,6.5,SPRINTER
+Søren,Kragh Andersen,Alpecin-Premier Tech,DEN,30,97,Rouleur,6.0,ROULEUR
+Maxim,Van Gils,Lotto-Intermarché,BEL,25,98,Climber,7.0,CLIMBER
+Victor,Campenaerts,Lotto-Intermarché,BEL,33,99,Rouleur,6.0,ROULEUR
+Sylvain,Moniquet,Lotto-Intermarché,BEL,28,100,Climber,5.5,CLIMBER
+Andreas,Kron,Lotto-Intermarché,DEN,26,101,Climber,6.0,CLIMBER
+Jarrad,Drizners,Lotto-Intermarché,AUS,25,102,Rouleur,5.0,ROULEUR
+Jake,Stewart,Groupama-FDJ United,GBR,25,103,Classics,5.5,CLASSICS
+Stefan,Küng,Groupama-FDJ United,SUI,31,104,Rouleur,6.5,ROULEUR
+Kevin,Geniets,Groupama-FDJ United,LUX,27,105,Rouleur,5.5,ROULEUR
+Paul,Magnier,Soudal Quick-Step,FRA,21,106,Sprint,6.0,SPRINTER
+Yves,Lampaert,Soudal Quick-Step,BEL,34,107,Classics,6.0,CLASSICS
+Jan,Hirt,Soudal Quick-Step,CZE,34,108,Climber,5.5,CLIMBER
+Mauri,Vansevenant,Soudal Quick-Step,BEL,25,109,Climber,5.5,CLIMBER
+Mikkel,Honoré,EF Education-EasyPost,DEN,27,110,Climber,5.5,CLIMBER
+Stefan,Bissegger,EF Education-EasyPost,SUI,26,111,Rouleur,6.0,ROULEUR
+Nico,Denz,XDS-Astana,GER,30,112,Rouleur,5.5,ROULEUR
+Harold,Tejada,XDS-Astana,COL,27,113,Climber,5.5,CLIMBER
+Davide,Ballerini,XDS-Astana,ITA,30,114,Classics,5.0,CLASSICS
+Mark,Cavendish,XDS-Astana,GBR,39,115,Sprint,4.5,SPRINTER
+Jack,Haig,Bahrain Victorious,AUS,31,116,GC,6.0,GC
+Damiano,Caruso,Bahrain Victorious,ITA,37,117,Climber,5.5,CLIMBER
+Wilco,Kelderman,Team Visma-Lease a Bike,NED,34,118,GC,6.0,GC
+Jan,Tratnik,Team Visma-Lease a Bike,SLO,35,119,Rouleur,5.5,ROULEUR
+Attila,Valter,Team Visma-Lease a Bike,HUN,26,120,GC,6.0,GC
+Marijn,van den Berg,Team Picnic-PostNL,NED,24,121,Sprint,6.0,SPRINTER
+Elmar,Reinders,Unibet Rose Rockets,NED,33,122,Rouleur,5.5,ROULEUR
+Odd Christian,Eiking,Unibet Rose Rockets,NOR,30,123,Climber,5.5,CLIMBER
+Niklas,Larsen,Unibet Rose Rockets,DEN,28,124,Rouleur,5.0,ROULEUR
+Clément,Venturini,Unibet Rose Rockets,FRA,32,125,Classics,5.5,CLASSICS
+Merhawi,Kudus,Burgos-Burpellet-BH,ERI,31,126,Climber,5.5,CLIMBER
+Jesús,Herrada,Burgos-Burpellet-BH,ESP,35,127,Climber,5.5,CLIMBER
+Urko,Berrade,Equipo Kern Pharma,ESP,28,128,Climber,5.5,CLIMBER
+Fausto,Masnada,MBH Bank CSB,ITA,31,129,Climber,5.5,CLIMBER
+Gotzon,Martin,Euskaltel-Euskadi,ESP,29,130,Climber,5.0,CLIMBER
+Mikel,Bizkarra,Euskaltel-Euskadi,ESP,36,131,Climber,4.5,CLIMBER
+Jonathan,Lastra,Euskaltel-Euskadi,ESP,32,132,Climber,5.0,CLIMBER
+Giovanni,Lonardi,Team Polti-VisitMalta,ITA,28,133,Sprint,5.0,SPRINTER
+Diego,Sevilla,Team Polti-VisitMalta,ESP,29,134,Climber,4.5,CLIMBER
+Brandon,McNulty,UAE Team Emirates-XRG,USA,26,135,Rouleur,6.0,ROULEUR
+Jhonatan,Narváez,UAE Team Emirates-XRG,ECU,28,136,Rouleur,5.5,ROULEUR
+Filippo,Baroncini,UAE Team Emirates-XRG,ITA,24,137,Classics,5.5,CLASSICS
+Mikkel,Bjerg,UAE Team Emirates-XRG,DEN,26,138,Rouleur,5.0,ROULEUR
+Benoît,Cosnefroy,UAE Team Emirates-XRG,FRA,29,139,Climber,5.5,CLIMBER
+Rune,Herregodts,UAE Team Emirates-XRG,BEL,27,140,Rouleur,5.0,ROULEUR
+António,Morgado,UAE Team Emirates-XRG,POR,22,141,GC,5.5,GC
+Tim,Wellens,UAE Team Emirates-XRG,BEL,34,142,Rouleur,5.0,ROULEUR
+Florian,Vermeersch,UAE Team Emirates-XRG,BEL,25,143,Classics,5.5,CLASSICS
+Bruno,Armirail,Team Visma-Lease a Bike,FRA,30,144,Rouleur,5.0,ROULEUR
+Ben,Tulett,Team Visma-Lease a Bike,GBR,23,145,Classics,5.5,CLASSICS
+Axel,Zingle,Team Visma-Lease a Bike,FRA,24,146,Climber,5.0,CLIMBER
+Bob,Jungels,INEOS Grenadiers,LUX,33,147,Rouleur,5.5,ROULEUR
+Magnus,Sheffield,INEOS Grenadiers,USA,22,148,Rouleur,5.5,ROULEUR
+Tobias,Foss,INEOS Grenadiers,NOR,28,149,GC,5.5,GC
+Ben,Swift,INEOS Grenadiers,GBR,37,150,Sprint,5.0,SPRINTER
+Rémi,Cavagna,Decathlon-CMA CGM,FRA,29,151,Rouleur,5.5,ROULEUR
+Aurélien,Paret-Peintre,Decathlon-CMA CGM,FRA,28,152,Climber,5.5,CLIMBER
+Sam,Watson,INEOS Grenadiers,GBR,23,153,Classics,5.0,CLASSICS
+Kévin,Vauquelin,INEOS Grenadiers,FRA,23,154,Climber,5.5,CLIMBER
+Tiesj,Benoot,Decathlon-CMA CGM,BEL,31,155,Classics,6.0,CLASSICS
+Oliver,Naesen,Decathlon-CMA CGM,BEL,34,156,Classics,5.5,CLASSICS
+Matthew,Riccitello,Decathlon-CMA CGM,USA,23,157,Climber,5.5,CLIMBER
+Stefan,Küng,Groupama-FDJ United,SUI,31,158,Rouleur,6.5,ROULEUR
+Valentin,Madouas,Groupama-FDJ United,FRA,29,159,Classics,5.5,CLASSICS
+Rudy,Molard,Groupama-FDJ United,FRA,35,160,Climber,5.0,CLIMBER
+Quentin,Pacher,Groupama-FDJ United,FRA,32,161,Climber,5.0,CLIMBER
+Guillaume,Martin,Groupama-FDJ United,FRA,32,162,Climber,5.5,CLIMBER
+Jasper,Stuyven,Soudal Quick-Step,BEL,33,163,Classics,5.5,CLASSICS
+Maximilian,Schachmann,Soudal Quick-Step,GER,31,164,Climber,5.5,CLIMBER
+Filippo,Zana,Soudal Quick-Step,ITA,25,165,GC,5.5,GC
+Ethan,Hayter,Soudal Quick-Step,GBR,26,166,Rouleur,6.0,ROULEUR
+Georg,Steinhauser,EF Education-EasyPost,GER,24,167,Climber,5.5,CLIMBER
+Michael,Valgren,EF Education-EasyPost,DEN,33,168,Classics,5.5,CLASSICS
+Sean,Quinn,EF Education-EasyPost,USA,24,169,Climber,5.0,CLIMBER
+Bauke,Mollema,Lidl-Trek,NED,38,170,Climber,5.0,CLIMBER
+Mattias,Skjelmose,Lidl-Trek,DEN,24,171,GC,6.0,GC
+Edward,Theuns,Lidl-Trek,BEL,33,172,Sprint,5.0,SPRINTER
+Carlos,Verona,Lidl-Trek,ESP,32,173,Climber,5.0,CLIMBER
+Max,Walscheid,Lidl-Trek,GER,31,174,Sprint,5.0,SPRINTER
+Mathias,Vacek,Lidl-Trek,CZE,22,175,Rouleur,5.5,ROULEUR
+Davide,Formolo,Movistar Team,ITA,33,176,Climber,5.5,CLIMBER
+Natnael,Tesfatsion,Movistar Team,ERI,24,177,Climber,5.0,CLIMBER
+Gonzalo,Serrano,Movistar Team,ESP,30,178,Rouleur,5.5,ROULEUR
+Pablo,Castrillo,Movistar Team,ESP,26,179,Climber,5.0,CLIMBER
+Jorge,Arcas,Movistar Team,ESP,32,180,Rouleur,5.0,ROULEUR
+Daniel,Martínez,Red Bull-BORA-hansgrohe,COL,29,181,GC,6.0,GC
+Jordi,Meeus,Red Bull-BORA-hansgrohe,BEL,26,182,Sprint,5.5,SPRINTER
+Gianni,Moscon,Red Bull-BORA-hansgrohe,ITA,31,183,Classics,5.5,CLASSICS
+Gianni,Vermeersch,Red Bull-BORA-hansgrohe,BEL,32,184,Classics,5.5,CLASSICS
+Frederik,Wandahl,Red Bull-BORA-hansgrohe,DEN,24,185,Classics,5.0,CLASSICS
+Silvan,Dillier,Alpecin-Premier Tech,SUI,34,186,Classics,5.0,CLASSICS
+Michael,Gogl,Alpecin-Premier Tech,AUT,31,187,Rouleur,5.0,ROULEUR
+Hugo,Houle,Alpecin-Premier Tech,CAN,34,188,Climber,5.0,CLIMBER
+Jonas,Rickaert,Alpecin-Premier Tech,BEL,30,189,Rouleur,5.0,ROULEUR
+Florian,Sénéchal,Alpecin-Premier Tech,FRA,32,190,Classics,5.0,CLASSICS
+Gerben,Thijssen,Alpecin-Premier Tech,BEL,27,191,Sprint,5.0,SPRINTER
+Georg,Zimmermann,Lotto-Intermarché,GER,27,192,Rouleur,5.5,ROULEUR
+Jarno,Widar,Lotto-Intermarché,BEL,19,193,GC,5.5,GC
+Reuben,Thompson,Lotto-Intermarché,NZL,22,194,GC,5.0,GC
+Pascal,Ackermann,Team Jayco-AlUla,GER,31,195,Sprint,5.5,SPRINTER
+Filippo,Conca,Team Jayco-AlUla,ITA,26,196,Rouleur,5.0,ROULEUR
+Alessandro,Covi,Team Jayco-AlUla,ITA,26,197,Climber,5.5,CLIMBER
+Felix,Engelhardt,Team Jayco-AlUla,GER,25,198,Rouleur,5.0,ROULEUR
+Andrea,Vendrame,Team Jayco-AlUla,ITA,30,199,Sprint,5.0,SPRINTER
+Mauro,Schmid,Team Jayco-AlUla,SUI,25,200,Rouleur,5.5,ROULEUR
+Chris,Harper,Pinarello-Q36.5,AUS,30,201,Climber,5.0,CLIMBER
+Damien,Howson,Pinarello-Q36.5,AUS,32,202,Climber,5.0,CLIMBER
+Matteo,Moschetti,Pinarello-Q36.5,ITA,28,203,Sprint,5.0,SPRINTER
+David,de la Cruz,Pinarello-Q36.5,ESP,36,204,Climber,5.0,CLIMBER
+Mark,Donovan,Pinarello-Q36.5,GBR,26,205,Climber,5.0,CLIMBER
+Thomas,Gloag,Pinarello-Q36.5,GBR,24,206,GC,5.0,GC
+Xandro,Meurisse,Pinarello-Q36.5,BEL,33,207,Climber,5.0,CLIMBER
+Joseph,Pidcock,Pinarello-Q36.5,GBR,23,208,Classics,5.0,CLASSICS
+Nickolas,Zukowsky,Pinarello-Q36.5,CAN,27,209,Climber,5.0,CLIMBER
+Alberto,Bettiol,XDS-Astana,ITA,31,210,Classics,5.5,CLASSICS
+Lorenzo,Fortunato,XDS-Astana,ITA,29,211,Climber,5.5,CLIMBER
+Sergio,Higuita,XDS-Astana,COL,28,212,Climber,5.5,CLIMBER
+Diego,Ulissi,XDS-Astana,ITA,36,213,Rouleur,5.0,ROULEUR
+Andreas,Leknessund,Uno-X Mobility,NOR,25,214,GC,5.5,GC
+Alexander,Kamp,Uno-X Mobility,DEN,28,215,Rouleur,5.0,ROULEUR
+Markus,Hoelgaard,Uno-X Mobility,NOR,30,216,Rouleur,5.0,ROULEUR
+Søren,Wærenskjold,Uno-X Mobility,NOR,25,217,Rouleur,5.5,ROULEUR
+Torstein,Træen,Uno-X Mobility,NOR,30,218,Climber,5.0,CLIMBER
+Rasmus,Tiller,Uno-X Mobility,NOR,29,219,Rouleur,5.0,ROULEUR
+Warren,Barguil,Team Picnic-PostNL,FRA,33,220,Climber,5.0,CLIMBER
+Nils,Eekhoff,Team Picnic-PostNL,NED,27,221,Classics,5.0,CLASSICS
+Fabio,Jakobsen,Team Picnic-PostNL,NED,28,222,Sprint,5.5,SPRINTER
+Gijs,Leemreize,Team Picnic-PostNL,NED,25,223,Climber,5.0,CLIMBER
+Tim,Naberman,Team Picnic-PostNL,NED,23,224,Rouleur,5.0,ROULEUR
+Timo,Roosen,Team Picnic-PostNL,NED,32,225,Rouleur,5.0,ROULEUR

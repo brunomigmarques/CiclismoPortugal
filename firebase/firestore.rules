@@ -1,0 +1,210 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper function to check if user is admin
+    function isAdmin() {
+      return request.auth != null &&
+             exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+             get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    }
+
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Helper function to check if user owns the resource
+    function isOwner(userId) {
+      return request.auth != null && request.auth.uid == userId;
+    }
+
+    // ==========================================
+    // CYCLISTS - Dados dos ciclistas profissionais
+    // ==========================================
+    match /cyclists/{cyclistId} {
+      // Leitura publica (todos podem ver ciclistas)
+      allow read: if true;
+
+      // Escrita apenas para admins (sync do ProCyclingStats)
+      allow write: if isAdmin();
+    }
+
+    // ==========================================
+    // RACES - Corridas WorldTour
+    // ==========================================
+    match /races/{raceId} {
+      // Leitura publica
+      allow read: if true;
+
+      // Escrita apenas para admins
+      allow write: if isAdmin();
+    }
+
+    // ==========================================
+    // RACE RESULTS - Resultados das corridas
+    // ==========================================
+    match /race_results/{resultId} {
+      // Leitura publica
+      allow read: if true;
+
+      // Escrita apenas para admins
+      allow write: if isAdmin();
+    }
+
+    // ==========================================
+    // USERS - Perfis dos utilizadores
+    // ==========================================
+    match /users/{userId} {
+      // Cada utilizador so pode ler/escrever o seu proprio perfil
+      allow read: if isOwner(userId);
+      allow create: if isAuthenticated() && request.auth.uid == userId;
+      allow update: if isOwner(userId);
+
+      // Ninguem pode apagar utilizadores (so via Admin SDK)
+      allow delete: if false;
+    }
+
+    // ==========================================
+    // FANTASY TEAMS - Equipas dos jogadores
+    // ==========================================
+    match /fantasy_teams/{teamId} {
+      // Leitura: dono da equipa ou para rankings publicos
+      allow read: if isAuthenticated();
+
+      // Criacao: utilizador autenticado, e o team deve pertencer ao utilizador
+      allow create: if isAuthenticated() &&
+                      request.resource.data.userId == request.auth.uid;
+
+      // Atualizacao: apenas o dono
+      allow update: if isAuthenticated() &&
+                      resource.data.userId == request.auth.uid;
+
+      // Eliminacao: apenas o dono
+      allow delete: if isAuthenticated() &&
+                      resource.data.userId == request.auth.uid;
+    }
+
+    // Sub-colecao: ciclistas da equipa
+    match /fantasy_teams/{teamId}/cyclists/{cyclistId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() &&
+                     get(/databases/$(database)/documents/fantasy_teams/$(teamId)).data.userId == request.auth.uid;
+    }
+
+    // ==========================================
+    // LEAGUES - Ligas (publicas e privadas)
+    // ==========================================
+    match /leagues/{leagueId} {
+      // Leitura: publica para ligas publicas, membros para privadas
+      allow read: if true;
+
+      // Criacao: qualquer utilizador autenticado
+      allow create: if isAuthenticated();
+
+      // Atualizacao: apenas o dono da liga
+      allow update: if isAuthenticated() &&
+                      resource.data.ownerId == request.auth.uid;
+
+      // Eliminacao: apenas o dono
+      allow delete: if isAuthenticated() &&
+                      resource.data.ownerId == request.auth.uid;
+    }
+
+    // Sub-colecao: membros da liga
+    match /leagues/{leagueId}/members/{memberId} {
+      allow read: if true;
+      allow create: if isAuthenticated() && memberId == request.auth.uid;
+      allow update: if isAuthenticated() && memberId == request.auth.uid;
+      allow delete: if isAuthenticated() &&
+                      (memberId == request.auth.uid ||
+                       get(/databases/$(database)/documents/leagues/$(leagueId)).data.ownerId == request.auth.uid);
+    }
+
+    // ==========================================
+    // TRANSFERS - Historico de transferencias
+    // ==========================================
+    match /transfers/{transferId} {
+      // Leitura: apenas o dono
+      allow read: if isAuthenticated() &&
+                    resource.data.userId == request.auth.uid;
+
+      // Escrita: apenas o sistema (via Cloud Functions) ou o dono
+      allow create: if isAuthenticated() &&
+                      request.resource.data.userId == request.auth.uid;
+
+      // Sem updates ou deletes
+      allow update, delete: if false;
+    }
+
+    // ==========================================
+    // SYNC STATUS - Estado da sincronizacao
+    // ==========================================
+    match /sync_status/{document} {
+      // Leitura publica (para verificar ultima sync)
+      allow read: if true;
+
+      // Escrita apenas para admins
+      allow write: if isAdmin();
+    }
+
+    // ==========================================
+    // PRICE HISTORY - Historico de precos
+    // ==========================================
+    match /price_history/{historyId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ==========================================
+    // GAMEWEEKS - Jornadas/Semanas de jogo
+    // ==========================================
+    match /gameweeks/{gameweekId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ==========================================
+    // SCORING - Pontuacao
+    // ==========================================
+    match /scoring/{scoringId} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ==========================================
+    // PROVAS - Corridas portuguesas (para Cloud Function)
+    // ==========================================
+    match /provas/{provaId} {
+      // Leitura publica (Cloud Function e app leem)
+      allow read: if true;
+
+      // Escrita apenas para utilizadores autenticados (app sync)
+      // Cloud Function usa Admin SDK (bypass rules)
+      allow write: if isAuthenticated();
+    }
+
+    // ==========================================
+    // CYCLING VIDEOS - Videos de ciclismo (cache)
+    // ==========================================
+    match /cycling_videos/{videoId} {
+      // Leitura publica
+      allow read: if true;
+
+      // Escrita apenas para utilizadores autenticados (app sync)
+      // Cloud Function usa Admin SDK (bypass rules)
+      allow write: if isAuthenticated();
+    }
+
+    // ==========================================
+    // NEWS ARTICLES - Noticias (para Cloud Function)
+    // ==========================================
+    match /news_articles/{articleId} {
+      // Leitura publica
+      allow read: if true;
+
+      // Escrita apenas para utilizadores autenticados (app sync)
+      allow write: if isAuthenticated();
+    }
+  }
+}

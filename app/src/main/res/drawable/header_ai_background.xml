@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base gradient background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="135"
+                android:startColor="#4F46E5"
+                android:centerColor="#6366F1"
+                android:endColor="#8B5CF6"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Subtle pattern overlay using tiled AI icons -->
+    <item
+        android:left="-30dp"
+        android:top="-30dp"
+        android:right="-30dp"
+        android:bottom="-30dp">
+        <bitmap
+            android:src="@drawable/ic_ai_pattern"
+            android:tileMode="repeat"
+            android:alpha="0.15" />
+    </item>
+
+    <!-- Bottom fade for text readability -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#00000000"
+                android:centerColor="#00000000"
+                android:endColor="#33000000"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,88 @@
+first_name,last_name,team,nationality,age,uci_ranking,speciality,price,category,profile_url
+Mathieu,Van Der Poel,Alpecin-Premier Tech,,,8,CLASSICS,11.2,CLASSICS,https://www.procyclingstats.com/rider/mathieu-van-der-poel
+Jasper,Philipsen,Alpecin-Premier Tech,,,20,SPRINTER,8.65,SPRINTER,https://www.procyclingstats.com/rider/jasper-philipsen
+Kaden,Groves,Alpecin-Premier Tech,,,82,SPRINTER,4.88,SPRINTER,https://www.procyclingstats.com/rider/kaden-groves
+Tibor,Del Grosso,Alpecin-Premier Tech,,,86,ROULEUR,4.8,ROULEUR,https://www.procyclingstats.com/rider/tibor-del-grosso
+Gerben,Thijssen,Alpecin-Premier Tech,,,317,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/gerben-thijssen
+Simon,Dehairs,Alpecin-Premier Tech,,,321,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/simon-dehairs
+Francesco,Busatto,Alpecin-Premier Tech,,,334,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/francesco-busatto
+Jensen,Plowright,Alpecin-Premier Tech,,,379,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/jensen-plowright
+Edward,Planckaert,Alpecin-Premier Tech,,,382,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/edward-planckaert
+Henri,Uhlig,Alpecin-Premier Tech,,,507,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/henri-uhlig
+Luca,Vergallito,Alpecin-Premier Tech,,,514,CLIMBER,4.0,CLIMBER,https://www.procyclingstats.com/rider/luca-vergallito
+Ramses,Debruyne,Alpecin-Premier Tech,,,543,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/ramses-debruyne
+Jonas,Geens,Alpecin-Premier Tech,,,549,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/jonas-geens
+Hugo,Houle,Alpecin-Premier Tech,,,602,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/hugo-houle
+Emiel,Verstrynge,Alpecin-Premier Tech,,,608,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/emiel-verstrynge
+Jonas,Rickaert,Alpecin-Premier Tech,,,613,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/jonas-rickaert
+Gal,Glivar,Alpecin-Premier Tech,,,652,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/gal-glivar
+Senna,Remijn,Alpecin-Premier Tech,,,687,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/senna-remijn
+Tim,Marsman,Alpecin-Premier Tech,,,722,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/tim-marsman
+Silvan,Dillier,Alpecin-Premier Tech,,,766,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/silvan-dillier
+Tobias,Bayer,Alpecin-Premier Tech,,,801,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/tobias-bayer
+Sente,Sentjens,Alpecin-Premier Tech,,,853,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/sente-sentjens
+Oscar,Riesebeek,Alpecin-Premier Tech,,,910,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/oscar-riesebeek
+Johan,Price-Pejtersen,Alpecin-Premier Tech,,,915,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/johan-price-pejtersen
+Florian,Sénéchal,Alpecin-Premier Tech,,,1004,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/florian-senechal
+Michael,Gogl,Alpecin-Premier Tech,,,1458,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/michael-gogl
+Aaron,Dockx,Alpecin-Premier Tech,,,1765,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/aaron-dockx
+Maurice,Ballerstedt,Alpecin-Premier Tech,,,1897,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/maurice-ballerstedt
+Lennert,Belmans,Alpecin-Premier Tech,,,2215,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/lennert-belmans
+Lindsay,De Vylder,Alpecin-Premier Tech,,,2361,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/lindsay-de-vylder
+Ben,Healy,EF Education - EasyPost,,,22,CLIMBER,8.35,CLIMBER,https://www.procyclingstats.com/rider/ben-healy
+Neilson,Powless,EF Education - EasyPost,,,41,CLIMBER,6.3,CLIMBER,https://www.procyclingstats.com/rider/neilson-powless
+Richard,Carapaz,EF Education - EasyPost,,,50,GC,5.58,GC,https://www.procyclingstats.com/rider/richard-carapaz
+Marijn,Van Den Berg,EF Education - EasyPost,,,142,ROULEUR,4.295,ROULEUR,https://www.procyclingstats.com/rider/marijn-van-den-berg
+Mikkel,Frølich Honoré,EF Education - EasyPost,,,177,ROULEUR,4.12,ROULEUR,https://www.procyclingstats.com/rider/mikkel-honore
+Madis,Mihkels,EF Education - EasyPost,,,208,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/madis-mihkels
+Vincenzo,Albanese,EF Education - EasyPost,,,214,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/vincenzo-albanese
+Harry,Sweeny,EF Education - EasyPost,,,243,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/harry-sweeny
+Alex,Baudin,EF Education - EasyPost,,,256,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/alex-baudin
+Luke,Lamperti,EF Education - EasyPost,,,257,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/luke-lamperti
+Archie,Ryan,EF Education - EasyPost,,,300,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/archie-ryan
+Lukas,Nerurkar,EF Education - EasyPost,,,340,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/lukas-nerurkar
+Kasper,Asgreen,EF Education - EasyPost,,,352,CLASSICS,4.0,CLASSICS,https://www.procyclingstats.com/rider/kasper-asgreen
+James,Shaw,EF Education - EasyPost,,,407,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/james-shaw
+Georg,Steinhauser,EF Education - EasyPost,,,428,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/georg-steinhauser
+Michael,Leonard,EF Education - EasyPost,,,472,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/michael-leonard1
+Michael,Valgren,EF Education - EasyPost,,,482,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/michael-valgren-andersen
+Jefferson,Alexander Cepeda,EF Education - EasyPost,,,491,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/jefferson-alexander-cepeda
+Matthias,Schwarzbacher,EF Education - EasyPost,,,610,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/matthias-schwarzbacher
+Markel,Beloki,EF Education - EasyPost,,,612,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/markel-beloki
+Noah,Hobbs,EF Education - EasyPost,,,621,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/noah-hobbs
+Jardi,Christiaan Van Der Lee,EF Education - EasyPost,,,659,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/jardi-christiaan-van-der-lee
+Colby,Simmons,EF Education - EasyPost,,,717,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/colby-simmons
+Darren,Rafferty,EF Education - EasyPost,,,764,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/darren-rafferty
+Max,Walker,EF Education - EasyPost,,,823,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/max-walker
+Sean,Quinn,EF Education - EasyPost,,,858,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/sean-quinn
+Alastair,Mackellar,EF Education - EasyPost,,,970,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/alastair-mackellar
+Samuele,Battistella,EF Education - EasyPost,,,1007,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/samuele-battistella
+Mattia,Agostinacchio,EF Education - EasyPost,,,999,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/mattia-agostinacchio
+Lenny,Martinez,Bahrain - Victorious,,,31,CLIMBER,7.1,CLIMBER,https://www.procyclingstats.com/rider/lenny-martinez
+Pello,Bilbao,Bahrain - Victorious,,,48,CLIMBER,5.74,CLIMBER,https://www.procyclingstats.com/rider/pello-bilbao
+Santiago,Buitrago,Bahrain - Victorious,,,61,CLIMBER,5.3,CLIMBER,https://www.procyclingstats.com/rider/santiago-buitrago-sanchez
+Antonio,Tiberi,Bahrain - Victorious,,,70,GC,5.12,GC,https://www.procyclingstats.com/rider/antonio-tiberi
+Edoardo,Zambanini,Bahrain - Victorious,,,123,ROULEUR,4.39,ROULEUR,https://www.procyclingstats.com/rider/edoardo-zambanini
+Damiano,Caruso,Bahrain - Victorious,,,150,ROULEUR,4.255,ROULEUR,https://www.procyclingstats.com/rider/damiano-caruso
+Pau,Miquel,Bahrain - Victorious,,,174,ROULEUR,4.135,ROULEUR,https://www.procyclingstats.com/rider/pau-miquel-delgado
+Phil,Bauhaus,Bahrain - Victorious,,,187,ROULEUR,4.07,ROULEUR,https://www.procyclingstats.com/rider/phil-bauhaus
+Alec,Segaert,Bahrain - Victorious,,,203,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/alec-segaert
+Matej,Mohori?,Bahrain - Victorious,,,220,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/matej-mohoric
+Afonso,Eulálio,Bahrain - Victorious,,,310,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/afonso-eulalio
+Jakob,Omrzel,Bahrain - Victorious,,,323,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/jakob-omrzel
+Vlad,Van Mechelen,Bahrain - Victorious,,,355,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/vlad-van-mechelen
+Attila,Valter,Bahrain - Victorious,,,434,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/attila-valter
+Rainer,Kepplinger,Bahrain - Victorious,,,562,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/rainer-kepplinger
+Matevž,Govekar,Bahrain - Victorious,,,580,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/matevz-govekar
+Kamil,Gradek,Bahrain - Victorious,,,664,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/kamil-gradek
+Robert,Stannard,Bahrain - Victorious,,,668,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/robert-stannard
+Daniel,Skerl,Bahrain - Victorious,,,699,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/daniel-skerl
+Žak,Eržen,Bahrain - Victorious,,,726,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/zak-erzen
+Fran,Miholjevi?,Bahrain - Victorious,,,732,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/fran-miholjevic
+Mathijs,Paasschens,Bahrain - Victorious,,,814,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/mathijs-paasschens
+Roman,Ermakov,Bahrain - Victorious,,,826,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/roman-ermakov
+Alberto,Bruttomesso,Bahrain - Victorious,,,869,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/alberto-bruttomesso
+Max,Van Der Meulen,Bahrain - Victorious,,,1085,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/max-van-der-meulen
+Alessandro,Borgo,Bahrain - Victorious,,,1152,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/alessandro-borgo
+Oliver,Stockwell,Bahrain - Victorious,,,1593,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/oliver-stockwell
+Nikias,Arndt,Bahrain - Victorious,,,999,ROULEUR,4.0,ROULEUR,https://www.procyclingstats.com/rider/nikias-arndt

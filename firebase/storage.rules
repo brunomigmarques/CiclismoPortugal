@@ -1,0 +1,65 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // ==========================================
+    // CYCLISTS PHOTOS - Fotos dos ciclistas
+    // ==========================================
+    match /cyclists/photos/{allPaths=**} {
+      // Leitura publica (todos podem ver fotos)
+      allow read: if true;
+
+      // Escrita apenas para utilizadores autenticados (sync)
+      // Em producao, limitar apenas a admins via Cloud Functions
+      allow write: if request.auth != null;
+    }
+
+    // ==========================================
+    // TEAM LOGOS - Logos das equipas profissionais
+    // ==========================================
+    match /teams/logos/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // ==========================================
+    // USER AVATARS - Avatares dos utilizadores
+    // ==========================================
+    match /users/{userId}/avatar/{fileName} {
+      // Leitura publica (para rankings)
+      allow read: if true;
+
+      // Escrita: apenas o proprio utilizador
+      allow write: if request.auth != null &&
+                     request.auth.uid == userId &&
+                     request.resource.size < 5 * 1024 * 1024 && // Max 5MB
+                     request.resource.contentType.matches('image/.*');
+    }
+
+    // ==========================================
+    // LEAGUE BANNERS - Banners das ligas
+    // ==========================================
+    match /leagues/{leagueId}/banner/{fileName} {
+      allow read: if true;
+
+      // Escrita: apenas o dono da liga
+      // Nota: Requer verificacao via Cloud Functions para validar ownership
+      allow write: if request.auth != null &&
+                     request.resource.size < 2 * 1024 * 1024 && // Max 2MB
+                     request.resource.contentType.matches('image/.*');
+    }
+
+    // ==========================================
+    // RACE IMAGES - Imagens das corridas
+    // ==========================================
+    match /races/{raceId}/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Negar tudo o resto por defeito
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

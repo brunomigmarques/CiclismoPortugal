@@ -1,0 +1,6 @@
+first_name,last_name,team,nationality,age,uci_ranking,speciality,price,category,profile_url
+Tadej,Pogačar,UAE Team Emirates,,,1,GC,15.0,GC,rider/tadej-pogacar
+Jonas,Vingegaard,Team Visma-Lease a Bike,,,2,GC,14.0,GC,rider/jonas-vingegaard
+Remco,Evenepoel,Red Bull-BORA-hansgrohe,,,3,GC,13.5,GC,rider/remco-evenepoel
+Primož,Roglič,Red Bull-BORA-hansgrohe,,,4,GC,13.0,GC,rider/primoz-roglic
+Mathieu,van der Poel,Alpecin-Premier Tech,,,5,CLASSICS,12.5,CLASSICS,rider/mathieu-van-der-poel
