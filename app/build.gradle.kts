@@ -60,8 +60,8 @@ android {
             buildConfigField("String", "ADMOB_BANNER_ID", "\"ca-app-pub-4498446920337333/8835929871\"")
             buildConfigField("String", "ADMOB_INTERSTITIAL_ID", "\"ca-app-pub-4498446920337333/7055944347\"")
             buildConfigField("String", "ADMOB_REWARDED_ID", "\"ca-app-pub-4498446920337333/5996151723\"")
-            // YouTube Data API
-            buildConfigField("String", "YOUTUBE_API_KEY", "\"***REMOVED_EXPOSED_KEY***\"")
+            // YouTube Data API (from keystore.properties for security)
+            buildConfigField("String", "YOUTUBE_API_KEY", "\"${keystoreProperties.getProperty("youtubeApiKey", "")}\"")
             // Gemini AI API Key (from keystore.properties)
             buildConfigField("String", "GEMINI_API_KEY", "\"${keystoreProperties.getProperty("geminiApiKey", "")}\"")
             // Daily AI request limit (free tier = 1000)
@@ -73,8 +73,8 @@ android {
             buildConfigField("String", "ADMOB_BANNER_ID", "\"ca-app-pub-3940256099942544/6300978111\"")
             buildConfigField("String", "ADMOB_INTERSTITIAL_ID", "\"ca-app-pub-3940256099942544/1033173712\"")
             buildConfigField("String", "ADMOB_REWARDED_ID", "\"ca-app-pub-3940256099942544/5224354917\"")
-            // YouTube Data API
-            buildConfigField("String", "YOUTUBE_API_KEY", "\"***REMOVED_EXPOSED_KEY***\"")
+            // YouTube Data API (from keystore.properties for security)
+            buildConfigField("String", "YOUTUBE_API_KEY", "\"${keystoreProperties.getProperty("youtubeApiKey", "")}\"")
             // Gemini AI API Key (from keystore.properties)
             buildConfigField("String", "GEMINI_API_KEY", "\"${keystoreProperties.getProperty("geminiApiKey", "")}\"")
             // Daily AI request limit (higher for debug testing)
